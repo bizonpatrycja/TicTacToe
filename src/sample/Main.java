@@ -28,15 +28,12 @@ public class Main extends Application implements EventHandler<ActionEvent> {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        //
-
         addButtons(3, 100);
 
         primaryStage.setTitle("Tic Tac Toe");
         primaryStage.setScene(new Scene(this.gridPane, 300, 300));
         primaryStage.show();
     }
-
 
     public static void main(String[] args) {
         launch(args);
